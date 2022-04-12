@@ -1,0 +1,51 @@
+body{
+    
+    margin: 0px;
+    padding: 0%; 
+    text-align: center; 
+    background-image: url(https://images.pexels.com/photos/957061/milky-way-starry-sky-night-sky-star-957061.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+    background-size: cover;
+    color: aliceblue;
+   
+}
+img{
+    height: 25%;
+    width: 25%;
+}
+h1{
+    font-size: 60px;
+}
+
+button{
+    height: 90px;
+    width: 400px;
+    margin-left: 1%;
+    margin-right: 1%;
+    font-size: 50px;
+}
+.carreras{
+
+    width: 50%;
+   height: 200px;
+  padding-top: 12%;
+
+}
+#kine{
+    background-image: url(/kin.jpg);
+    background-size: cover;
+}
+
+#prog{
+    background-image: url(/prog.jpg);
+    background-size: cover;
+}
+#contactame{
+    padding: 40px;
+    background-image: url(/matrix.jpg);
+    background-size: contain;
+}
+
+img{
+    width: 100%;
+    display: block;
+}
