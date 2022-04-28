@@ -46,7 +46,22 @@ table, th, td {
 
   .Barra-separadora{
       width: 90%;
-      height: 5px;
+     height: 5px;
+     background-color: black;
+     border-radius: 50%;
+     margin: 5%;
       
 
   }
+  #post1-Container{
+      text-align: center;
+
+  }
+  #post{
+      border-color: white;
+  }
+  .celda{
+      width: 50%;
+      
+  }
+  
