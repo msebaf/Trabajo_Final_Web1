@@ -36,12 +36,12 @@ button{
 }
 
 #prog{
-    background-image: url(img/prog.jpg);
+    background-image: url(Img/prog.jpg);
     background-size: cover;
 }
 #contactame{
     padding: 40px;
-    background-image: url(img/matrix.jpg);
+    background-image: url(Img/matrix.jpg);
     background-size: contain;
 }
 
