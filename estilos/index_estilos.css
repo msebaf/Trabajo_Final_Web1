@@ -31,17 +31,17 @@ button{
 
 }
 #kine{
-    background-image: url(Img/kin.jpg);
+    background-image: url(../Img/kin.jpg);
     background-size: cover;
 }
 
 #prog{
-    background-image: url(Img/prog.jpg);
+    background-image: url(../Img/prog.jpg);
     background-size: cover;
 }
 #contactame{
     padding: 40px;
-    background-image: url(Img/matrix.jpg);
+    background-image: url(../Img/matrix.jpg);
     background-size: contain;
 }
 

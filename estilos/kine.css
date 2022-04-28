@@ -43,3 +43,10 @@ header{
 table, th, td {
     border: 1px solid black;
   }
+
+  .Barra-separadora{
+      width: 90%;
+      height: 5px;
+      
+
+  }
