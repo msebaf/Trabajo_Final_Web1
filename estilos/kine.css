@@ -1,0 +1,45 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+
+
+  
+header{
+   
+}
+.menu ul {
+    display: flex;
+    justify-content: space-around;
+    background-color: aquamarine;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+ 
+
+.submenu{
+    display: none;
+}
+.aparece:hover{
+    display: block;
+}
+
+
+#Kki{
+    display: flex;
+    justify-content: center;
+    margin: 7%;
+    
+}
+
+ table{
+     width: 80%;
+     margin-left: auto;
+     margin-right: auto;
+     text-align: center;
+    
+ }
+table, th, td {
+    border: 1px solid black;
+  }
