@@ -1,0 +1,74 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background: url(../Img/52900.jpg);
+    color: rgb( 81,255,13);
+    text-align: center;
+    
+    
+    
+}
+body h1,h2{
+  margin-top: 4%;
+}
+
+
+  
+#navegador{
+    display:flex ;
+    justify-content: center;
+  
+    /*height: min-content;*/
+}
+.menu ul {
+    display: flex;
+    justify-content: space-between;
+    
+    padding-left: 5%;
+    padding-right: 5%;
+    margin: 0;
+    list-style: none;
+}
+
+
+ul{
+    list-style: none;
+  }
+  .menu li>a{
+    background-color: grey;
+    color: white;
+    padding: 10px;
+    display: block;
+    text-decoration: none;
+    min-width: 100px;
+  }
+  .menu li>a:hover{
+    color: #000;
+    background-color: #eaeaea;
+  }
+  .menu>li{
+    float: left;
+    text-align:center
+  }
+  .menu>li>ul{
+    display: none;
+  }
+  .menu>li:hover>ul {
+    display:block;
+  }
+
+
+  .lengs{
+    display:inline-flex;
+    justify-content: center;
+
+  
+  }
+  .lengs img{
+
+    width: 13%;
+    height:auto;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 5%;
+  }

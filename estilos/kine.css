@@ -1,28 +1,60 @@
 body{
     margin: 0%;
     padding: 0%;
+    
 }
 
 
   
-header{
-   
+#navegador{
+    display:flex ;
+    justify-content: center;
+    
+  
+   /* height: min-content; */
 }
 .menu ul {
     display: flex;
-    justify-content: space-around;
-    background-color: aquamarine;
-    padding: 0;
+    justify-content: space-between;
+    
+    padding-left: 5%;
+    padding-right: 5%;
     margin: 0;
     list-style: none;
 }
- 
 
-.submenu{
-    display: none;
-}
-.aparece:hover{
+
+ul{
+    list-style: none;
+  }
+  .menu li>a{
+    background-color: grey;
+    color: white;
+    padding: 10px;
     display: block;
+    text-decoration: none;
+    min-width: 100px;
+  }
+  .menu li>a:hover{
+    color: #000;
+    background-color: #eaeaea;
+  }
+  .menu>li{
+    float: left;
+    text-align:center
+  }
+  .menu>li>ul{
+    display: none;
+  }
+  .menu>li:hover>ul {
+    display:block;
+  }
+
+
+ 
+p{
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 
@@ -64,4 +96,28 @@ table, th, td {
       width: 50%;
       
   }
+
+  #osteo-info{
+      text-align: center;
+  }
+
+#img-osteo{
+    display:flex;
+    justify-content: space-around;
+    
+    
+}
+  .img-ost{
+     height: 150px;
+     width: 15%;
+  }
   
+  #ost-videos{
+      display: flex;
+      justify-content: space-around;
+      padding-left: 20%;
+      padding-right: 20%;
+      margin-top: 3%;
+
+     
+  }
