@@ -72,3 +72,19 @@ ul{
     margin-right: 2%;
     margin-top: 5%;
   }
+
+
+
+  
+  #proyectos>img{
+  
+    height:200px;
+    width: 200px;
+  }
+ 
+  #img1, #img3{
+    opacity: 0.2;
+  }
+  #flechasCarr >img{
+    width: 100px;
+  }

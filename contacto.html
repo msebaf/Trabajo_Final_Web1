@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilos/formEstilos.css">
+    <script type="text/javascript" src="scripts/scriptContacto.js"></script>
     <title>Contacto</title>
 </head>
 <body>
@@ -37,11 +38,11 @@
     </header>
 
     <div id="botones">
-        <button id="turno">Pedir Turno</button>
-        <button id="pagina">Solicitar Pagina Web</button>
+        <button id="boton_turno" onclick="mostrarFormularioTurno()">Pedir Turno</button>
+        <button id="boton_pagina" onclick="mostrarFormularioWeb()">Solicitar Pagina Web</button>
     </div>
 
-    <div class="formularios" id="turno" >
+    <div class="formularios_no_mostrar" id="turno" >
         <h1>Turno</h1>
     <form action="">
         <h3>Datos de Contacto </h3>
@@ -86,7 +87,7 @@
     </form>
 
 </div>
-<div class="formularios" id="pWeb" style="display:none ;">
+<div class="formularios_no_mostrar" id="pWeb">
     <h1>Solicitar Pagina web</h1>
     <h3>Describa su pedido</h3>
 

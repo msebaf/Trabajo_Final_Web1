@@ -62,6 +62,11 @@ left: 20%;
 text-align: center;
 
 
+
+  }
+  .formularios_no_mostrar{
+ 
+    display: none;
   }
 
   form{
