@@ -48,3 +48,34 @@ ul{
     display:block;
   }
 
+
+  #botones{
+    margin: 5%;
+    text-align: center;
+  } 
+
+  .formularios{
+  
+position: absolute;
+right: 20%;
+left: 20%;
+text-align: center;
+
+
+  }
+
+  form{
+    border: 1px solid black;
+    border-style: double;
+    border-width: 5px;
+   border-radius: 10%;
+    
+  
+  }
+.campos{
+  width: fit-content;
+  text-align: justify;
+  margin-left: auto;
+  margin-right: auto;
+
+}
