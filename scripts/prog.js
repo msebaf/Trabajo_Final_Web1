@@ -1,8 +1,8 @@
 
  let imgs=[];
- imgs[0]= "../Img/01.jpg"
- imgs[1]="../Img/02.jpg"
- imgs[2]="../Img/03.jpg"
+ imgs[0]= "Img/01.jpg"
+ imgs[1]= "Img/02.jpg"
+ imgs[2]= "Img/03.jpg"
  imgs[3]= undefined
 function pasarProyecto(){
    /* imgs[3]= imgs[2]
@@ -37,13 +37,13 @@ function volverProyecto(){
 
  function openBoard(){
     let laImagen= document.getElementById("img2").getAttribute("src");
-    if( laImagen == "../Img/01.jpg"){
+    if( laImagen == "Img/01.jpg"){
    window.open("https://msebaf.github.io/Etch-A-Sketch/");
     }
-    else if(laImagen=="../Img/02.jpg"){
+    else if(laImagen=="Img/02.jpg"){
         window.open("https://msebaf.github.io/calculator/");
     }
-    else if(laImagen=="../Img/03.jpg"){
+    else if(laImagen=="Img/03.jpg"){
         window.open("https://msebaf.github.io/Rock_Paper_Scisor/");
     }
 
