@@ -34,3 +34,18 @@ function volverProyecto(){
     document.getElementById("img2").setAttribute("src", imgs[1])
     document.getElementById("img3").setAttribute("src", imgs[2])
  }
+
+ function openBoard(){
+    let laImagen= document.getElementById("img2").getAttribute("src");
+    if( laImagen == "../Img/01.jpg"){
+   window.open("https://msebaf.github.io/Etch-A-Sketch/");
+    }
+    else if(laImagen=="../Img/02.jpg"){
+        window.open("https://msebaf.github.io/calculator/");
+    }
+    else if(laImagen=="../Img/03.jpg"){
+        window.open("https://msebaf.github.io/Rock_Paper_Scisor/");
+    }
+
+
+ }
