@@ -84,3 +84,7 @@ text-align: center;
   margin-right: auto;
 
 }
+
+.error{
+border-color: red;
+}
