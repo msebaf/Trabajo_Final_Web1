@@ -13,18 +13,19 @@ function mostrarFormularioWeb(){
   function validarTodo(){
      validarNombre();
      validarTel();
-     return false;
+     validarEdad()
+     
   }
  function validarNombre(){
    let nombreFormu = document.getElementById("nombre").value.trim();
    let erroresTurno= document.getElementById("erroresTurno");
    if (nombreFormu.length>0) {
       
-      
+      if(document.getElementById("par")){
       let par = document.getElementById("par");
       erroresTurno.removeChild(par)
       document.getElementById("nombre").classList.remove("error");
-      
+      }
    }
    else{
        document.getElementById("nombre").classList.add("error");
@@ -42,7 +43,7 @@ function mostrarFormularioWeb(){
       }
      
      
-      return false;
+      
 
    }
 
@@ -55,21 +56,46 @@ function mostrarFormularioWeb(){
    let test= document.getElementById("tel");
    if(test){
       test.remove();
+      telFormu.classList.remove("error");
+     
    }
    if(telFormu.value==""){
       let tel= document.createElement("p");
    tel.setAttribute("id","tel")
    tel.innerHTML= "-Debe ingresar un telefono";
    erroresTurno.appendChild(tel);
-   
+   telFormu.classList.add("error")
   
    }
    else if(isNaN(telFormu.value)){
+      telFormu.classList.add("error");
       let tel= document.createElement("p");
       tel.setAttribute("id","tel")
       tel.innerHTML= "-El telefono debe ser un numero";
       erroresTurno.appendChild(tel);
+      telFormu.classList.add("error")
       
    }
-   return false;
+   
+}
+
+function validarEdad(){
+   
+   let edades = document.getElementById("edades");
+ let menos18= document.getElementById("menos18");
+ let entre18y50= document.getElementById("entre18y50");
+ let mas50= document.getElementById("mas50");
+  let test = document.getElementById("edadesError")
+  if(test){
+      edades.classList.remove("error");
+      test.remove();
+  }
+ if(!menos18.checked && !entre18y50.checked && !mas50.checked){
+   let edadeError= document.createElement("p");
+   edadeError.setAttribute("id","edadesError")
+   edadeError.innerHTML= "-Debe elegir un rango de edad";
+   erroresTurno.appendChild(edadeError);
+   edades.classList.add("error");
+ }
+ 
 }
