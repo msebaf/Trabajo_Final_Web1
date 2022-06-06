@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="estilos/kine.css">
+    <script src="scripts/kine.js"></script>
     <title>Lic. en Kinesiologia y Fisioterapia</title>
 </head>
 <body>
@@ -15,8 +16,8 @@
                 <li><a href="#experiencia">Experiencia laboral</a></li>
                 <li><a href="#">Posgrados</a>
                     <ul >
-                        <li><a href="#">RPG</a></li>
-                        <li><a href="#">Osteopatia</a></li>
+                        <li><a href="#defRPG">RPG</a></li>
+                        <li><a href="#defOsteo">Osteopatia</a></li>
                        
                     </ul>
                 </li>
@@ -77,8 +78,8 @@
     </div>
     <hr class="Barra-separadora">
     
-    <div id="osteo-info">
-    <h2>¿Que es la Osteopatia?</h2>
+    <div class="info">
+    <h2 id="defOsteo">¿Que es la Osteopatia?</h2>
     <p style="padding-left: 3%; padding-right: 3%;">Es la ciencia y el arte de diagnosticar y de tratar las disfunciones de movilidad
          de los tejidos del cuerpo 
         humano, que provocan trastornos y perturban el estado de salud del organismo.</p>
@@ -116,5 +117,64 @@
     
     </div>
     <hr class="Barra-separadora">
+
+    <div class="info" id="rpg">
+         <h2 id="defRPG"> ¿Que es RPG?</h2>
+        <p style="padding-left: 3%; padding-right: 3%;">RPG es Reeducación Postural Global, un método de terapia
+             manual aplicado por Kinesiólogos-Fisioterapeutas, especializados en esta práctica a través de un programa de
+              capacitación presente en más de veinticinco países alrededor del mundo. Consiste en una forma innovadora
+               de evaluación, diagnóstico y tratamiento de las patologías que afectan al sistema Neuro-Músculo-Esquelético (NME). 
+               Pudiendo aplicarse a dos grandes objetivos, las alteraciones posturales y los cuadros dolorosos.</p>
+
+               <h2>¿Cuáles son los principios fundamentales de RPG?</h2>
+            <p>En la fisiología del SNME (Sistema Neuro-Músculo-Esquelético) y su alteración existen tres principios fundamentales a tener en cuenta:
+                <ol id="principiosRPG">
+                    <li><strong>Individualidad:</strong>  Cada persona se organiza y funciona corporalmente de un modo
+                         único y personal. Así también las alteraciones tienen un carácter muy personal.</li>
+                    <li><strong> Globalidad:</strong> Cada parte del cuerpo se encuentra relacionada con
+                         las otras, por lo tanto la organización, el funcionamiento y las alteraciones del 
+                         sistema neuro-músculo-esquelético se dan en el marco de esta interrelación.</li>
+                    <li><strong> Causalidad:</strong> Si pretendemos brindar una vía de cambio efectivo y duradero que mejore la
+                         calidad de vida de las personas, debemos trabajar sobre las causas y factores de riesgo de los 
+                         problemas y no únicamente sobre las consecuencias que estos pueden generar.</li>
+                </ol>
+            </p>
+            <div id="Img-rpg"> </div>
+            <img class="img-rpg" src="Img/rpg2.jpg" alt="">
+            <img class="img-rpg" src="Img/rpg3.jpg" alt="">
+            <img class="img-rpg" src="Img/rpg1.jpg" alt="">
+            <img class="img-rpg" src="Img/rpg4.jpg" alt="">
+            <img class="img-rpg" src="Img/rpg5.jpg" alt="">
+        </div>
+    </div>
+   
+
+    <div id="cert">
+       <div> <h2 id="tituloCertificados">Certificados</h2></div>
+       <img id="imgCert" src="Img/cetif/1.jpg" alt="" onload="tiempo()">
+       
+        <div>
+            <ul id="certificados">
+             <li><div class="clickeable"></div></li>
+             <li><div class="clickeable"></div></li>
+             <li><div class="clickeable"></div></li>
+             <li><div class="clickeable"></div></li>
+             <li><div class="clickeable"></div></li>
+             <li><div class="clickeable"></div></li>
+             <li><div class="clickeable"></div></li>
+        </ul>
+        
+    </div>
+    </div>
+
+    <footer>
+        <hr id="barra_final" >
+        <p>Mauricio Sebastian Ferrieres</p>
+        <p>Lic. em Kinesiologia y Fisioterapia</p>
+        <p>MP: 6121</p>
+        <p>TEL: 2665035074</p>
+        <p>Mail: msebaf86@gmail.com</p>
+    
+</div>
 </body>
 </html>
