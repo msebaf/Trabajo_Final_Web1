@@ -22,11 +22,8 @@
                     </ul>
                 </li>
               
-                <li><a href="#">Cursos</a>
-                    <ul>
-                        <li><a href="#">algo</a></li>
-                        <li><a href="#">algo</a></li>
-                    </ul>
+                <li><a href="#cursos">Cursos</a>
+                    
     
                 </li>
             </ul>
@@ -69,7 +66,7 @@
         <tr><th class="celda"><a href="#" title="¿Que es la Osteopatia?"> Osteopatia</a></th><th class="celda"><a href="#" title="Que es RPG" > Reeducacion Postural Global</a></th>
             <tr><td class="celda">Master en Tecnicas Osteopaticas,<a href="https://eominternacional.com/"> Escuela de Osteopatia de Madrid</a></td><td class="celda">Reeducacion Postural Global,<a href="https://rpgl.org/"> RPG Latinoamerica</a></td>
     </table>
-    <h1> Cursos</h1>
+    <h1 id="cursos"> Cursos</h1>
     <table id="post">
         <tr><td class="celda">Streching Global Activo</td><td class="celda">Instructor de Ejercicios Hipopresivos estaticos</td>
             <tr><td class="celda">Terapia Linfatica metodo Godoy & Godoy</a></td><td class="celda">Curso anual de Neurorehabilitacion Caramello/Maidana</td>
@@ -148,20 +145,21 @@
         </div>
     </div>
    
+     <hr class="Barra-separadora">
 
     <div id="cert">
-       <div> <h2 id="tituloCertificados">Certificados</h2></div>
-       <img id="imgCert" src="Img/cetif/1.jpg" alt="" onload="tiempo()">
+       <div> <h2 id="tituloCertificados">CERTIFICADOS</h2></div>
+       <img id="imgCert" src="Img/cetif/1.jpg" alt="" onload= "tiempo">
        
         <div>
             <ul id="certificados">
-             <li><div class="clickeable"></div></li>
-             <li><div class="clickeable"></div></li>
-             <li><div class="clickeable"></div></li>
-             <li><div class="clickeable"></div></li>
-             <li><div class="clickeable"></div></li>
-             <li><div class="clickeable"></div></li>
-             <li><div class="clickeable"></div></li>
+             <li><div id="a0" class="clickeable" onclick="elegirUno(this, 0)"></div></li>
+             <li><div id="a1" class="clickeable" onclick="elegirUno(this, 1)"></div></li>
+             <li><div id="a2" class="clickeable" onclick="elegirUno(this, 2)"></div></li>
+             <li><div id="a3" class="clickeable" onclick="elegirUno(this, 3)"></div></li>
+             <li><div  id="a4" class="clickeable" onclick="elegirUno(this, 4)"></div></li>
+             <li><div  id="a5" class="clickeable" onclick="elegirUno(this, 5)"></div></li>
+             <li><div id="a6" class="clickeable" onclick="elegirUno(this, 6)"></div></li>
         </ul>
         
     </div>
