@@ -17,9 +17,7 @@ function cambiarImagen(){
     document.getElementById("imgCert").setAttribute("src", fotos[numFoto])
     
    
-    if(numFoto==7){
-        numFoto=0;
-    }
+   
     switch(numFoto){
         case 0:
             document.getElementById("a0").classList.remove("Clickeable");
@@ -58,10 +56,13 @@ function cambiarImagen(){
             break;
     }
     numFoto+=1;
+    if(numFoto==7){
+        numFoto=0;
+    }
     }
 
 
-  let tiempo =  setInterval(cambiarImagen, 5000);
+  let tiempo =  setInterval(cambiarImagen, 4500);
 
   function elegirUno(a, n){
       
