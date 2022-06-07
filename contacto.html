@@ -33,10 +33,14 @@
         <h1>Turno</h1>
     <form id="dContact">
         <h3>Datos de Contacto </h3>
-        <input  name=""  id="nombre" placeholder="Nombre completo"><br>
-        <input  name="" id="telefono" placeholder="Telefono"><br>
-        <input  name="" id="mail" placeholder="email"><br>
         
+        <label for="nombre">  Nombre</label>
+        <input  name=""  id="nombre" placeholder="Nombre completo"><br>
+        <label for="telefono">Telefono</label>
+        <input  name="" id="telefono" placeholder="Telefono"><br>
+        <label for="mail"> &nbsp &nbsp Email</label>
+        <input  name="" id="mail" placeholder="email"><br>
+  
             <h4>Edad</h4>
             <div class="campos" id="edades" >
         <input type="radio" name="edad" id="menos18">
@@ -71,7 +75,8 @@
         <br>
         <br>
     </div>
-    <button type="button" onclick="validarTodo()"> validar</button>
+    <button id="validarTurno" type="button" onclick="validarTodo()"> validar</button>
+   
     <div id="erroresTurno">
         
     </div>
